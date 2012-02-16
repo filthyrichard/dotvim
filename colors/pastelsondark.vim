@@ -45,6 +45,7 @@ highlight Include                   guifg=#A1A1FF ctermfg=173 gui=NONE cterm=NON
 highlight PreCondit                 guifg=#4D74D0 ctermfg=173 gui=NONE cterm=NONE
 highlight Keyword                   guifg=#4D74D0 ctermfg=173 cterm=NONE
 highlight LineNr                    guifg=#888888 guibg=#DEDEDE
+highlight SignColumn                guifg=#888888 guibg=#DEDEDE
 highlight Number                    guifg=#A5C261 ctermfg=107
 highlight PreProc                   guifg=#E6E1DC ctermfg=103
 highlight Search                    guifg=NONE ctermfg=NONE guibg=#2b2b2b ctermbg=235 gui=italic cterm=underline
