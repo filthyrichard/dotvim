@@ -32,7 +32,7 @@ hi link htmlEndTag                  xmlEndTag
 
 highlight Normal                    guifg=#E6E1DC guibg=#2B2B2B
 highlight Cursor                    guifg=#000000 ctermfg=0 guibg=#FFFFFF ctermbg=15    
-highlight CursorLine                guibg=#000000 ctermbg=233 cterm=NONE
+highlight CursorLine                guibg=Grey25 ctermbg=233 cterm=NONE
 
 highlight Comment                   guifg=#555555
 highlight Constant                  guifg=#A1A1FF ctermfg=73
