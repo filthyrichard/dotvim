@@ -10,3 +10,5 @@ colorscheme pastelsondark
 
 " use \b to get a list of buffers and prompt for the buffer to edit
 nnoremap <leader>b :buffers<CR>:buffer<Space>
+
+noremap <silent> <leader>f :cal VimCommanderToggle()<CR>
