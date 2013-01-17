@@ -31,34 +31,35 @@ hi link htmlTagName                 xmlTagName
 hi link htmlEndTag                  xmlEndTag
 
 highlight Normal                    guifg=#E6E1DC guibg=#2B2B2B
-highlight Cursor                    guifg=#000000 ctermfg=0 guibg=#FFFFFF ctermbg=15    
+highlight Cursor                    guifg=#000000 ctermfg=0 guibg=#FFFFFF ctermbg=15
 highlight CursorLine                guibg=Grey25 ctermbg=233 cterm=NONE
 
-highlight Comment                   guifg=#555555
+highlight Folded					guibg=#4E4E4E guifg=#dadada ctermbg=239 ctermfg=253
+
+highlight Comment                   guifg=#585858 ctermfg=240
 highlight Constant                  guifg=#A1A1FF ctermfg=73
-highlight Define                    guifg=#4D74D0 ctermfg=173
+highlight Define                    guifg=#FFFFFF ctermfg=15
 highlight Todo                      guifg=#000000 guibg=#519F50 gui=italic
 highlight Error                     guifg=#FFC66D ctermfg=221 guibg=#990000 ctermbg=88
-highlight Function                  guifg=#6782D3
-highlight Identifier                guifg=#C1C144 ctermfg=73 gui=NONE cterm=NONE
-highlight Include                   guifg=#A1A1FF ctermfg=173 gui=NONE cterm=NONE
-highlight PreCondit                 guifg=#4D74D0 ctermfg=173 gui=NONE cterm=NONE
-highlight Keyword                   guifg=#4D74D0 ctermfg=173 cterm=NONE
-highlight LineNr                    guifg=#888888 guibg=#DEDEDE
-highlight SignColumn                guifg=#888888 guibg=#DEDEDE
-highlight Number                    guifg=#A5C261 ctermfg=107
-highlight PreProc                   guifg=#E6E1DC ctermfg=103
-highlight Search                    guifg=NONE ctermfg=NONE guibg=#2b2b2b ctermbg=235 gui=italic cterm=underline
-highlight Statement                 guifg=#4D74D0 ctermfg=173 gui=NONE cterm=NONE
-highlight String                    guifg=#AD9361 ctermfg=107
+highlight Function                  guifg=#5F87D7 ctermfg=68
+highlight Identifier                guifg=#AfAF5F ctermfg=143
+highlight Include                   guifg=#AFAFFF ctermfg=147
+highlight Keyword                   guifg=#5F87D7 ctermfg=68 cterm=NONE
+highlight LineNr                    guifg=#888888 ctermfg=0 guibg=#DEDEDE ctermbg=253
+highlight SignColumn                guifg=#888888 ctermfg=0 guibg=#DEDEDE ctermbg=253
+highlight Number                    guifg=#AFAF5F ctermfg=143
+highlight PreProc                   guifg=#E6E1DC ctermfg=7
+highlight Search                    guifg=NONE ctermfg=NONE guibg=#2b2b2b ctermbg=226 gui=italic cterm=underline
+highlight Statement                 guifg=#5F87D7 ctermfg=68 gui=NONE cterm=NONE
+highlight String                    guifg=#D7Af87 ctermfg=180
 highlight Title                     guifg=#FFFFFF ctermfg=15
-highlight Type                      guifg=#C1C144 ctermfg=167 gui=NONE cterm=NONE
-highlight Visual                    guibg=#5A647E ctermbg=60
+highlight Type                      guifg=#FFFFFF ctermfg=15 gui=NONE cterm=NONE
+highlight Visual                    guibg=#5F5F87 ctermbg=60
 
 
 highlight DiffAdd                   guifg=#E6E1DC ctermfg=7 guibg=#519F50 ctermbg=71
 highlight DiffDelete                guifg=#E6E1DC ctermfg=7 guibg=#660000 ctermbg=52
-highlight Special                   guifg=#47B8D6 ctermfg=167 
+highlight Special                   guifg=#FFFFFF ctermfg=15 
 
 highlight pythonBuiltin             guifg=#6D9CBE ctermfg=73 gui=NONE cterm=NONE
 highlight rubyBlockParameter        guifg=#C1C144 ctermfg=15
